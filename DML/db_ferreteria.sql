@@ -33,14 +33,14 @@ CREATE TABLE `clientes` (
   `telefono` varchar(20) DEFAULT NULL,
   `email` varchar(100) NOT NULL,
   `direccion` varchar(150) DEFAULT NULL,
-  `fecHaRegistro` timestamp NULL DEFAULT CURRENT_TIMESTAMP
+  `fechaRegistro` timestamp NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Volcado de datos para la tabla `clientes`
 --
 
-INSERT INTO `clientes` (`idCliente`, `nombreCompleto`, `telefono`, `email`, `direccion`, `fecHaRegistro`) VALUES
+INSERT INTO `clientes` (`idCliente`, `nombreCompleto`, `telefono`, `email`, `direccion`, `fechaRegistro`) VALUES
 (1, 'Daniel Perez', '3128534957', 'danielperez@gmail.com', 'Cl 25 #30-21, Medellin, Antioquia', '2024-01-18 18:29:25'),
 (2, 'Pedro Suarez', '3012548624', 'pedrosuarez@gmail.com', 'Cr 18G #41H-50, Sincelejo, Sucre', '2023-11-07 18:31:32'),
 (3, 'Rocio Marin', '3245826482', 'rociomarin@gmail.com', 'Cl 13 #13-64, Medellin, Antioquia', '2023-11-22 13:22:27'),
